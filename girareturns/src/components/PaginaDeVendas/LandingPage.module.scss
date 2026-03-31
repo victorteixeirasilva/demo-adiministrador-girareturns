@@ -1,0 +1,611 @@
+// ========================================
+// styles/LandingPage.module.scss
+// ========================================
+
+// Variables
+$primary-green: #00c853;
+$primary-green-light: #00e676;
+$dark-green: #1b5e20;
+$dark-green-medium: #2e7d32;
+$gray-dark: #424242;
+$gray-medium: #616161;
+$gray-light: #757575;
+$gray-lighter: #f5f5f5;
+$bg-light: #f8faf9;
+$bg-green-light: #e8f5e9;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin shadow-card {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+@mixin gradient-green {
+  background: linear-gradient(135deg, $primary-green 0%, $primary-green-light 100%);
+}
+
+@mixin gradient-dark {
+  background: linear-gradient(90deg, $dark-green 0%, $dark-green-medium 100%);
+}
+
+// Global Styles
+.landing {
+  font-family: 'Arial', sans-serif;
+  color: $gray-dark;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 60px;
+  
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+// Header
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: $primary-green;
+  margin: 0;
+}
+
+.headerCta {
+  background: transparent;
+  border: 2px solid $dark-green-medium;
+  color: $dark-green-medium;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: $dark-green-medium;
+    color: white;
+  }
+}
+
+// Hero Section
+.hero {
+  background: linear-gradient(135deg, $bg-light 0%, $bg-green-light 100%);
+  padding: 100px 0 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.circle1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: $primary-green;
+  opacity: 0.08;
+  top: 50px;
+  right: 100px;
+}
+
+.circle2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: $primary-green-light;
+  opacity: 0.06;
+  bottom: 100px;
+  left: 50px;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  
+  @media (max-width: 968px) {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}
+
+.heroText {
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 56px;
+  font-weight: bold;
+  color: $dark-green;
+  margin: 0 0 30px;
+  line-height: 1.2;
+  
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.heroSubtitle {
+  font-size: 24px;
+  color: $gray-dark;
+  opacity: 0.85;
+  margin: 0 0 40px;
+  line-height: 1.5;
+  
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.heroActions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  @include gradient-green;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 200, 83, 0.3);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 200, 83, 0.4);
+  }
+}
+
+.pricing {
+  font-size: 16px;
+  color: $gray-light;
+}
+
+.heroImage {
+  z-index: 1;
+}
+
+.dashboardPreview {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  @include shadow-card;
+}
+
+.dashboardHeader {
+  background: $gray-lighter;
+  padding: 15px 20px;
+}
+
+.windowControls {
+  display: flex;
+  gap: 10px;
+}
+
+.controlRed,
+.controlYellow,
+.controlGreen {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.controlRed {
+  background: #ff5252;
+}
+
+.controlYellow {
+  background: #ffc107;
+}
+
+.controlGreen {
+  background: $primary-green;
+}
+
+.dashboardContent {
+  padding: 40px;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 200px;
+  gap: 20px;
+}
+
+.bar {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.bar1 {
+  background: #1976d2;
+  opacity: 0.8;
+  height: 65%;
+}
+
+.bar2 {
+  background: $primary-green;
+  opacity: 0.8;
+  height: 85%;
+}
+
+.bar3 {
+  background: #ffa726;
+  opacity: 0.8;
+  height: 75%;
+}
+
+.chartLabel {
+  text-align: center;
+  margin-top: 20px;
+  color: $gray-light;
+  font-size: 14px;
+}
+
+// Stats Section
+.stats {
+  padding: 80px 0;
+  background: white;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  
+  @media (max-width: 968px) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.statCard {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  @include shadow-card;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.statNumber {
+  font-size: 48px;
+  font-weight: bold;
+  color: $primary-green;
+  margin: 0 0 20px;
+}
+
+.statLabel {
+  font-size: 16px;
+  color: $gray-medium;
+  margin: 0;
+  line-height: 1.5;
+}
+
+// Features Section
+.features {
+  padding: 100px 0;
+  background: $bg-light;
+}
+
+.sectionTitle {
+  font-size: 42px;
+  font-weight: bold;
+  color: $dark-green;
+  text-align: center;
+  margin: 0 0 80px;
+  
+  @media (max-width: 768px) {
+    font-size: 32px;
+    margin: 0 0 50px;
+  }
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  
+  @media (max-width: 968px) {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.featureCard {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  @include shadow-card;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.featureIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  @include gradient-green;
+  @include flex-center;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.featureTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: $dark-green;
+  margin: 0 0 25px;
+  line-height: 1.3;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  li {
+    font-size: 15px;
+    color: $gray-medium;
+    padding: 10px 0;
+    position: relative;
+    padding-left: 25px;
+    
+    &::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: $primary-green;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+// Process Section
+.process {
+  padding: 100px 0;
+  background: white;
+}
+
+.processSteps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.processStep {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.stepNumber {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  @include gradient-green;
+  @include flex-center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto 30px;
+  @include shadow-card;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.stepLabel {
+  font-size: 18px;
+  font-weight: bold;
+  color: $dark-green;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.stepConnector {
+  width: 100px;
+  height: 3px;
+  background: $primary-green;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $primary-green;
+    opacity: 0.3;
+    animation: dash 2s linear infinite;
+  }
+  
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+@keyframes dash {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Benefits Section
+.benefits {
+  padding: 100px 0;
+  @include gradient-dark;
+  
+  .sectionTitle {
+    color: white;
+  }
+}
+
+.benefitsList {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefitItem {
+  font-size: 18px;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.benefitIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: $primary-green-light;
+  flex-shrink: 0;
+}
+
+// CTA Section
+.cta {
+  padding: 120px 0;
+  background: $bg-light;
+}
+
+.ctaCard {
+  background: white;
+  padding: 80px 60px;
+  border-radius: 16px;
+  text-align: center;
+  @include shadow-card;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  @media (max-width: 768px) {
+    padding: 60px 30px;
+  }
+}
+
+.ctaTitle {
+  font-size: 38px;
+  font-weight: bold;
+  color: $dark-green;
+  margin: 0 0 25px;
+  line-height: 1.3;
+  
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.ctaSubtitle {
+  font-size: 18px;
+  color: $gray-medium;
+  margin: 0 0 40px;
+  line-height: 1.6;
+}
+
+.ctaBtn {
+  @include gradient-green;
+  color: white;
+  border: none;
+  padding: 22px 60px;
+  border-radius: 35px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 200, 83, 0.35);
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0, 200, 83, 0.45);
+  }
+}
+
+// Footer
+.footer {
+  background: $dark-green;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footerLogo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 10px;
+}
+
+.footerTagline {
+  font-size: 14px;
+  color: #a5d6a7;
+  margin: 0 0 20px;
+}
+
+.footerContact {
+  font-size: 14px;
+  color: #a5d6a7;
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# 1. Trata o Next.js para remover a extensão .html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# 2. Ignora assets do Next.js
+RewriteRule ^_next/ - [L]
+
+# 3. Se não for um arquivo ou diretório existente, redireciona para o index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]

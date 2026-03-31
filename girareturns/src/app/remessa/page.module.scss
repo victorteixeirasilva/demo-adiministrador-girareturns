@@ -1,0 +1,110 @@
+.page {
+    background-color: #F8F9FA;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: calc(100vw - 200px);
+    
+    .conteudo {
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            margin: 0px !important;
+            width: 100vw !important;
+        }
+
+        .topo {
+            margin: 0px;
+            width: 100%;
+            background-color: #FFFFFF;
+            box-shadow: 2px 3 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            h1 {
+                display: flex;
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                color: #1A1D21;
+                display: flex;
+                align-items: center;
+                height: 100%;
+            }
+        }
+
+        .resumos {
+            width: 85%;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+
+            @media (max-width: 768px) {
+                margin-top: 0px !important;
+                justify-content: center;
+                align-items: center;
+                width: 100vw !important;
+                flex-direction: column;
+            }
+        }
+
+        .info {
+            margin-top: 10px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 8px;
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            border: 1px solid #DEE2E6;
+            margin-right: 40px;
+
+            p {
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                color: #333;
+                margin: 0;
+            }
+
+            @media (max-width: 768px) {
+                margin: 0px;
+                width: 70%;
+                opacity: 1;
+                transition: 0.4s;
+                margin-top: 20px !important;                
+            }
+        }
+
+    }
+
+    .line {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+
+        @media (max-width: 768px) {
+            margin: 0px !important;
+            width: 100vw !important;
+            flex-direction: column;
+            opacity: 1;
+            transition: 0.4s;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.container {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 85%;
+
+    @media (max-width: 768px) {
+        margin: 0;
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: column;
+        opacity: 1;
+        transition: 0.4s;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.datas {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        opacity: 1;
+        transition: 0.4s;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.data {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #DEE2E6;
+    margin-right: 40px;
+
+    p {
+        font-weight: 600;
+        font-size: 14px;
+        color: #333;
+        margin: 0;
+    }
+
+    @media (max-width: 768px) {
+        margin: 0px;
+        width: 70%;
+        opacity: 1;
+        transition: 0.4s;
+    }
+}
+
+.botaoFiltrar {
+    cursor: pointer;
+    background-color: #0C9144;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s ease;
+
+    &:hover:not(:disabled) {
+        background-color: #0a7435;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(12, 145, 68, 0.3);
+    }
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    @media (max-width: 768px) {
+        width: 80%;
+        opacity: 1;
+        transition: 0.4s;
+    }
+}
+
+.erro {
+  padding: 10px 12px;
+  background-color: #fee;
+  color: #c33;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  border-left: 3px solid #c33;
+}
