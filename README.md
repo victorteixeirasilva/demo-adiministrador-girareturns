@@ -2,6 +2,8 @@
 
 Este repositório contém uma **demonstração interativa autônoma** baseada no front-end do ecossistema **GiraReturns / Giraê**, originalmente administrado pela **Gira Tecnologia**. O projeto foi adaptado para **portfólio e apresentações públicas**: não há chamadas a APIs reais, credenciais ou dados de clientes.
 
+**Link Para Teste:** [https://girareturnsdemo.inovasoft.tech/](https://girareturnsdemo.inovasoft.tech/)
+
 ---
 
 ## Parte técnica
@@ -166,3 +168,63 @@ Esta demo mostra como é possível **preservar a experiência de um painel admin
 - Esta **versão demo** foi adaptada para fins de **portfólio e demonstração**, sem vínculo operacional com ambientes reais da empresa.
 
 ---
+<img width="1912" height="3813" alt="screencapture-girareturnsdemo-inovasoft-tech-2026-03-31-21_17_04" src="https://github.com/user-attachments/assets/15701d98-1a66-40a2-a01d-9303a6ac176b" />
+<img width="1905" height="941" alt="Captura de tela 2026-03-31 212412" src="https://github.com/user-attachments/assets/3a78b65b-5724-42c9-9df4-1af980b166cf" />
+<img width="1912" height="946" alt="Captura de tela 2026-03-31 212450" src="https://github.com/user-attachments/assets/ff632ae2-4c8b-4157-9806-992ce9bae267" />
+<img width="1915" height="943" alt="Captura de tela 2026-03-31 212510" src="https://github.com/user-attachments/assets/eb1db25f-7e41-4c5a-b7cc-6050c0238929" />
+<img width="1912" height="944" alt="Captura de tela 2026-03-31 212531" src="https://github.com/user-attachments/assets/da33fd3f-5404-4800-9999-9744aca5ea7c" />
+<img width="1914" height="941" alt="Captura de tela 2026-03-31 212628" src="https://github.com/user-attachments/assets/106b9a4e-2f8a-41cd-8a33-8281fd1e5de6" />
+<img width="1913" height="945" alt="Captura de tela 2026-03-31 212705" src="https://github.com/user-attachments/assets/0fcdfa65-bfce-457e-b54f-bdf6b78debf5" />
+<img width="1912" height="942" alt="Captura de tela 2026-03-31 212733" src="https://github.com/user-attachments/assets/c8305680-da65-4448-933c-76a8a69c17ed" />
+<img width="1915" height="944" alt="Captura de tela 2026-03-31 212826" src="https://github.com/user-attachments/assets/a8cc35f2-fdc6-4b29-aea0-0bc254401d90" />
+<img width="1914" height="942" alt="Captura de tela 2026-03-31 212857" src="https://github.com/user-attachments/assets/d882c621-87b1-4296-8b93-e9cd04a705a8" />
+<img width="1910" height="944" alt="Captura de tela 2026-03-31 212936" src="https://github.com/user-attachments/assets/96bb8d6e-de1b-4b49-b062-2fe6952eec96" />
+<img width="1912" height="943" alt="Captura de tela 2026-03-31 212956" src="https://github.com/user-attachments/assets/0ce84566-fdc4-4cfd-b3ff-7ff52725ebfb" />
+<img width="1913" height="946" alt="Captura de tela 2026-03-31 213018" src="https://github.com/user-attachments/assets/7c324d13-06ba-478c-8b60-8c97b1d6b28e" />
+
+<img width="360" height="896" alt="IMG_8249" src="https://github.com/user-attachments/assets/85bf1755-115f-42d1-b543-348046a21eee" />
+<img width="414" height="896" alt="IMG_8250" src="https://github.com/user-attachments/assets/08d3d84c-562d-450f-83cb-5f58c87a16bd" />
+<img width="414" height="896" alt="IMG_8251" src="https://github.com/user-attachments/assets/d90316bb-420d-4325-972e-1e521026c048" />
+<img width="414" height="896" alt="IMG_8252" src="https://github.com/user-attachments/assets/50fce473-fb57-4e1e-84d2-9d6a067b571b" />
+<img width="414" height="896" alt="IMG_8253" src="https://github.com/user-attachments/assets/5261fa78-c48a-4660-8358-ca2ca40109ee" />
+<img width="414" height="896" alt="IMG_8254" src="https://github.com/user-attachments/assets/8413f3ce-2f7d-4357-8b61-1e5e65f2467d" />
+<img width="414" height="896" alt="IMG_8255" src="https://github.com/user-attachments/assets/4a03108f-2fe0-4d30-9be0-6ba06fbf8fc4" />
+<img width="414" height="896" alt="IMG_8256" src="https://github.com/user-attachments/assets/6c1c8683-372f-479f-8361-f56411134e11" />
+<img width="414" height="896" alt="IMG_8257" src="https://github.com/user-attachments/assets/cff0365b-4808-4a43-93ab-48fdef3dbe85" />
+<img width="414" height="896" alt="IMG_8258" src="https://github.com/user-attachments/assets/6916802a-6011-4da6-9f57-54befbaa38d1" />
+<img width="414" height="896" alt="IMG_8258" src="https://github.com/user-attachments/assets/d7347d63-55cb-4da0-933b-00241e263ad7" />
+<img width="414" height="896" alt="IMG_8260" src="https://github.com/user-attachments/assets/7aefc671-7e02-4eef-95ce-ef5bc208291b" />
+<img width="414" height="896" alt="IMG_8261" src="https://github.com/user-attachments/assets/75fddb17-ad9b-4bba-8726-35682d1abbec" />
+<img width="414" height="896" alt="IMG_8262" src="https://github.com/user-attachments/assets/ebe76c23-bb8a-4195-b756-cb26aaaf171b" />
+<img width="414" height="896" alt="IMG_8263" src="https://github.com/user-attachments/assets/c342f2ec-3a74-4c6d-8f30-e07bdb8af5b7" />
+<img width="414" height="896" alt="IMG_8264" src="https://github.com/user-attachments/assets/7d38dba8-3605-4277-8d53-ac38ce7dea7e" />
+<img width="414" height="896" alt="IMG_8265" src="https://github.com/user-attachments/assets/475b88b4-deb2-42df-b5e0-5f6a14816326" />
+<img width="414" height="896" alt="IMG_8266" src="https://github.com/user-attachments/assets/c4c3f449-a148-4a8b-bf0c-14cb484c3d7c" />
+<img width="414" height="896" alt="IMG_8267" src="https://github.com/user-attachments/assets/c45a6d5f-5009-4347-9533-c9c9e36cffd2" />
+<img width="414" height="896" alt="IMG_8268" src="https://github.com/user-attachments/assets/7f503c50-c231-4ad8-9df5-6930e83d3cd6" />
+<img width="414" height="896" alt="IMG_8269" src="https://github.com/user-attachments/assets/1ac38fc9-523c-4b78-9289-add15243f451" />
+<img width="414" height="896" alt="IMG_8270" src="https://github.com/user-attachments/assets/f483ce94-2d0f-49f4-b424-bd8671f1e967" />
+<img width="414" height="896" alt="IMG_8271" src="https://github.com/user-attachments/assets/67ec6c0c-3a07-4a77-8844-f69fc2198c0e" />
+<img width="414" height="896" alt="IMG_8272" src="https://github.com/user-attachments/assets/36951fc6-7bc3-4f81-8c88-bedd43893a09" />
+<img width="414" height="896" alt="IMG_8273" src="https://github.com/user-attachments/assets/956f66cf-1de2-47fe-8808-2c20ae5006f9" />
+<img width="414" height="896" alt="IMG_8274" src="https://github.com/user-attachments/assets/1d6aae02-9618-4cac-b257-3465a0f0ee0e" />
+<img width="414" height="896" alt="IMG_8275" src="https://github.com/user-attachments/assets/8dca1b8c-0789-4bfe-9bdd-9df552b5785f" />
+<img width="414" height="896" alt="IMG_8276" src="https://github.com/user-attachments/assets/e0e24f29-645f-4873-9cb6-5093f9f00a3e" />
+<img width="414" height="896" alt="IMG_8277" src="https://github.com/user-attachments/assets/db3658f0-7c66-4c03-8127-8902a177a02a" />
+<img width="414" height="896" alt="IMG_8278" src="https://github.com/user-attachments/assets/de486794-a248-4d0b-a26d-3414c61fdfae" />
+<img width="414" height="896" alt="IMG_8279" src="https://github.com/user-attachments/assets/ad819336-3286-4509-a450-5a4b892c0782" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
