@@ -3,6 +3,7 @@
 Este repositório contém uma **demonstração interativa autônoma** baseada no front-end do ecossistema **GiraReturns / Giraê**, originalmente administrado pela **Gira Tecnologia**. O projeto foi adaptado para **portfólio e apresentações públicas**: não há chamadas a APIs reais, credenciais ou dados de clientes.
 
 **Link Para Teste:** [https://girareturnsdemo.inovasoft.tech/](https://girareturnsdemo.inovasoft.tech/)
+<img width="1024" height="1024" alt="Editedimage_1775006214385" src="https://github.com/user-attachments/assets/1af0a0ea-0c37-48e4-a088-d410b0a601b2" />
 
 ---
 
